@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <title>Visitor's Card</title>
+  <style>
+  h2{
+    text-align: center;
+    margin-top: 3px;
+  }
+  label{
+    display:block;
+    margin-top:15px;
+    font-weight: bold;
+  }
+  form{
+    max-width:500px;
+    background:black;
+    padding:10px; 
+    border-radius:10px; 
+    box-shadow:0 2px 8px rgba(0,0,0,0.2);
+  }
+  body{
+    padding:5px;
+    min-height:190vh;
+    background:white;
+    color:white;
+      }
+  input,select,textarea{
+    padding:10px;
+    margin-top:5px;
+    width:100%;
+    border:2px solid black;
+    box-sizing: border-box;
+  }
+  button{
+    width:100%;
+    margin-top:10px;
+    padding:8px;
+    background:red;
+    font-size: 16px;
+    color:white;
+    font-weight:bold;
+    border-radius: 5px;
+    border:none;
+    cursor:pointer;
+  }
+  button:hover{
+   background:blue; 
+  }
+  
+  </style>
+</head>
+<body>
+  <div style="text-align:center; margin-bottom:10px;">
+    <a href="index.html" style="color:red; font-weight:bold; text-decoration:none;">← Back to Home</a>
+  </div>
+  <form action="https://formsubmit.co/cswmchurch26@gmail.com" method="POST">
+  <input type= "hidden" name = "_captcha" value= "false">
+  <input type= "text" name = "_honey" style= "display:none">
+  <input type= "hidden" name = "_name" value="https://yourwebsite.com/thank-you.html">
+   
+    <div style="text-align:center;"> <img src="images/CSWM.png" style="max-width:70px; height:auto; margin-bottom:10px;">
+    </div>
+    <h2>Welcome to Christ The Savior Worldwide Ministry</h2>
+    <p style= "text-align:center; font-weight: bold;">We'd love to connect with you</p>
+    <label for ="Date">Date:</label>
+    <input type= "date" id="Date" name="Date" required>
+    <label for="Title">Title</label>
+    <select name= "Title" id="Title" required>
+      <option value="">Select...</option>
+      <option value="Mr">Mr.</option>
+      <option value="Mrs">Mrs.</option>
+      <option value="Ms">Ms.</option>
+      <option value="Bro">Bro.</option>
+      <option value="Sis">Sis.</option>
+    </select>
+    <label for ="Name">Full Name:</label>
+    <input type= "text" id="Name" name="Name" required>
+    <label for= "Number">Phone Number:</label>
+    <input type= "tel" id="Number" name="Number" placeholder="08012345678">
+    <label for= "Address">Address/Area:</label>
+    <input type= "text" id="Address" name="Address">
+    <label for= "Email">Email:</label>
+    <input type= "email" id="Email" name="Email" required>
+    <label for="First-Timer">Is this your first time here?</label>
+    <select name= "First-Timer" id="First-Timer" required>
+      <option value="">Select...</option>
+      <option value="Yes">Yes</option>
+      <option value="No">No</option>
+    </select>
+    <label for="Enquiry">How did you hear about us?</label>
+    <select name= "Enquiry" id="Enquiry" required>
+      <option value="">Select...</option>
+      <option value="Friend">Friend/Family</option>
+      <option value="Google">Google</option>
+      <option value="Social Media">Social Media</option>
+      <option value="Walked Past">Walked Past</option>
+      <option value="Other">Other</option>
+    </select>
+    <label for= "Prayer-Request">Prayer Request:</label>
+    <textarea name= "Prayer-Request" id="Prayer-Request" rows="4"></textarea>
+    <br>
+    <button type= "submit">Submit</button> 
+  </form>
+</body>
+</html>

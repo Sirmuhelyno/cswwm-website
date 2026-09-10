@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Share Your Testimony-C.S.W.M</title>
+</head>
+<style>
+.form-container{max-width:700px; border:2px solid red; border-radius:10px;margin: 14px 0px;max-width:700px;background:#f9f9f9;padding:20px;}
+.form-container h2{font-family: fantasy; text-align:center;color:red; margin-bottom:15px;}
+.form-group{margin-bottom:15px;}
+.form-group label{display:block;font-weight:bold;margin-bottom:5px;color:#333}
+.form-group input,.form-group textarea,.form-group select{font-size:15px;
+border-radius:5px;border:1px solid #ccc;padding:10px;width:100%;box-sizing:border-box;}
+.form-group textarea {height:120px; resize:none;}
+.btn-submit {width:100%; padding:12px; background:red; color:white; border:none; border-radius:5px;
+font-size:18px; font-weight:bold; cursor:pointer; font-family:fantasy;}
+.btn-submit:hover {background:darkred;}
+
+</style>
+<body>
+  <div style="text-align:center; margin-bottom:10px;">
+    <a href="index.html" style="color:red; font-weight:bold; text-decoration:none;">← Back to Home</a>
+  </div>
+  <div style="background:red; color:white; text-align:center; padding:10px;">
+    <h2>YOUR TESTIMONY CAN SAVE SOMEONE</h2><hr>
+    <p>Psalm 118:15b <br>The Lord's right hand has done mighty things</p>
+  </div>
+  <div class="form-container">
+    <h2>Share Your Testimony</h2>
+  <form id="testimonyForm" action="https://formsubmit.co/cswmchurch26@gmail.com" method="POST">
+  <input type= "hidden" name = "_captcha" value= "false">
+  <input type="hidden" name="_template" value="table"><input type="hidden" name="_subject" value="New Testimony from C.S.W.M Website">
+  <input type= "text" name = "_honey" style= "display:none">
+    <div class="form-group">
+      <label>Full Name</label>
+      <input type="text" id="Name" name="Full Name"required placeholder="e.g Sister Mary">
+    </div>
+    <div class="form-group">
+      <label>Phone Number/Whatsapp Number</label>
+      <input type="tel" id="Phone" name="Phone Number" placeholder="0802 XXX XXXX">
+    </div>
+    <div class="form-group">
+      <label>Category of Testimony</label>
+      <select id="category" name="Category" required>
+        <option value="">...Select</option>
+        <option>Healing & Health</option>
+        <option>Job/Business Breakthrough</option>
+        <option>Marriage & Family</option>
+        <option>Financial Miracle</option>
+        <option>Academic Success</option>
+        <option>Protection</option>
+        <option>Others</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label>Write Your Testimony</label>
+      <textarea id="Testimony" name="Testimony" required placeholder="Be specific on what God did for you so it can encourage others"></textarea>
+    </div>
+  
+    <button type="submit" class="btn-submit">SUBMIT TESTIMONY</button></form></div>
+</body>
+</html>

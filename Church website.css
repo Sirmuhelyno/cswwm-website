@@ -1,0 +1,19 @@
+*{padding:0px;margin:0px;box-sizing:border-box;font-family:Arial;}
+header{display:flex; padding:5px 10px; background:black;border-bottom:1px solid #eee}
+.logo{display:flex; align-items:center; gap:10px;}
+.logo img{ width:90px; height:90px; margin-top:0px; object-fit:contain;}
+.logo-text h1{font-size:21px; text-align:center; color:red; font-family: fantasy;}
+hr{color:white; margin:5px;}
+.logo p{font-size:12px; color: white; margin-left:60px;}
+.menu{color:white;font-size:20px; cursor:pointer;}
+.menuItem{display:block;align-items:center;justify-content:space-between;}
+.menuItem button{border:none;background:none;color:black;font-size:18px;padding:4px;cursor:pointer;}
+#navMenu{max-height:190px;overflow-y:auto;display:none; position:absolute;top:40px;right:5px;z-index:1000;width:220px;border:2px solid red; border-radius:5%;background:white;}
+#navMenu a{display:block;color:black;text-decoration:none;padding:15px;font-size:18px;border-bottom:4px solid white;font-weight:bold; font-family: fantasy}
+#ministers{display:none; font-size:14px;}
+.subhead {background:red; text-align:center; color:white; margin-top:-2px; font-weight: bold; font-size:12px; overflow: hidden;}
+.subhead h2{animation: move 10s linear infinite alternate;}
+@keyframes move{from{transform: translateX(100%);}to{transform:translateX(-100%);}}
+.search-box{overflow:hidden;max-width:200px;width:100%;align-items:center;position:absolute;right:155px;top:160px;}
+.search-box input{outline:none;padding:5px 5px;background:grey;color:black;}
+.search-box button{padding:0 20px;font-size:19px;border:none;cursor:pointer;background:black;color:white;}
