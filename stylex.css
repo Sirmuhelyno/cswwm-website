@@ -1,4 +1,4 @@
-*{padding:0px;margin:0px;box-sizing:border-box;font-family:Arial;}
+*{padding:0px;margin:0px;box-sizing:border-box;font-family:Arial;max-width:600px;margin: 0 auto;}
 header{display:flex; padding:5px 10px; background:black;border-bottom:1px solid #eee}
 .logo{display:flex; align-items:center; gap:10px;}
 .logo img{ width:90px; height:90px; margin-top:0px; object-fit:contain;}
